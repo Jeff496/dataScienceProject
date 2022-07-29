@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 data2018 = pd.read_csv(r"C:\Users\keema\Downloads\2018 nba - 시트1.csv")
 data2020 = pd.read_csv(r"C:\Users\keema\Downloads\2020 nba - Sheet1 (1).csv")
 
+# print(data2018.describe())
+# print(data2020.describe())
+
 # 2018 home vs away wr
 # df = pd.DataFrame(data2018, columns=["TEAM", "home winrate", "away winrate"])
 # df.plot(x="TEAM", y=["home winrate", "away winrate"], kind="bar", figsize=(9, 8))
